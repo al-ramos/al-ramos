@@ -1,3 +1,4 @@
+![AMR SYSTEM](./amr_github_banner.png)
 <div align="left">
 
 <h3>Engenheiro de Software · .NET 8 + AWS · São Paulo </h3>
