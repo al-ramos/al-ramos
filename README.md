@@ -1,7 +1,9 @@
 <div align="left">
 
-Desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — B3, Itaú e Bradesco — onde atuei com sistemas de alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
-Nos últimos anos evolui para um stack moderno full-stack e cloud-native. Hoje trabalho com .NET 8 (C#), React/TypeScript, Clean Architecture e DevOps completo: infraestrutura como código com Terraform, pipelines no GitHub Actions e deploy em AWS ECS Fargate com ALB, EFS e ECR.
+Sou desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — B3, Itaú e Bradesco — onde sou sou especialista na sustentação de sistemas legados de alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
+
+Nos últimos anos evolui para um stack moderno full-stack e cloud-native. 
+Hoje trabalho com .NET 8 (C#), React/TypeScript, Clean Architecture e DevOps completo: infraestrutura como código com Terraform, pipelines no GitHub Actions e deploy em AWS ECS Fargate com ALB, EFS e ECR.
 
 Atualmente desenvolvo o AMR SYSTEM — ecossistema ERP corporativo com 10 módulos (Financeiro, Core, RH, Compras, Analytics, CRM, WMS, TMS, entre outros), integrações via RabbitMQ + MassTransit e autenticação JWT. É o projeto que consolida e demonstra toda a minha stack atual, do back ao cloud.
 Stack: C# · .NET 8 · React · TypeScript · SQL Server · SQLite · Docker · Terraform · AWS (ECS, ECR, ALB, EFS) · GitHub Actions · RabbitMQ · Clean Architecture
