@@ -1,6 +1,6 @@
 <div align="left">
 
-### Engenheiro de Software · .NET 8 + React + AWS · Sistemas críticos: B3, Itaú, Bradesco ##
+### Engenheiro de Software · .NET 8 + AWS · Sistemas críticos: B3, Itaú, Bradesco ##
 
 Sou desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — B3, Itaú e Bradesco — especialista na sustentação de sistema legado, alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
 
