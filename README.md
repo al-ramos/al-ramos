@@ -77,16 +77,56 @@ Sprint 6  📋  Portal do Cliente + IA
 
 ---
 
-## ⚽ Hydac — Protótipo de Gestão de Processos
+## 💧 Hydac Services — Workflow Management (BPM)
 
-> Ferramenta VBA desenvolvida para automatizar o controle de processos operacionais em ambiente industrial, com foco em rastreabilidade e registro de serviços técnicos.
+> Plataforma de **BPM corporativo** desenvolvida para a **Hydac** (indústria hidráulica) em parceria com a **Mac Gestão**.
+> Substitui 7 processos que rodavam em Excel puro por um sistema integrado com rastreabilidade total e controle de SLA.
 
-| Característica | Detalhe |
-|----------------|---------|
-| 🛠️ **Tecnologia** | VBA (Excel / Access) |
-| 🏭 **Contexto** | Ambiente industrial — plantão e manutenção |
-| 📋 **Funções** | Registro de OS, controle de estoque, relatórios automáticos |
-| 📊 **Status** | ✅ Protótipo funcional em uso |
+[![Demo](https://img.shields.io/badge/Demo_ao_Vivo-v5.0_SLA_Visual-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://hydac-services-hub.netlify.app/)
+[![Repo](https://img.shields.io/badge/GitHub-hydac--services--pb88-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/al-ramos/hydac-services-pb88)
+
+### 📊 Escopo
+
+| Processos especificados | Departamentos envolvidos | Etapas mapeadas |
+|:-----------------------:|:------------------------:|:----------------:|
+| **7** | **10** | **190+** |
+
+### 🔄 Fluxo do Sistema
+
+```
+USUÁRIO grava ação
+  ↓
+CQRS Command executado
+  ↓
+Evento disparado via RabbitMQ
+  ↓
+Próximo departamento recebe em tempo real (SignalR)
+  ↓
+Formulário carrega automaticamente (Blazor Server)
+  ↓
+Dados persistidos em MariaDB
+```
+
+### 🧰 Stack
+
+| Camada | Tecnologia |
+|--------|------------|
+| Frontend | Blazor Server + MudBlazor |
+| Backend | .NET 9 · CQRS · Clean Architecture |
+| Messaging | RabbitMQ + MassTransit |
+| Banco de Dados | MariaDB + EF Core 9 |
+| Autenticação | Azure AD / LDAP |
+| Deploy | Docker + GitHub Actions CI/CD |
+
+### 📋 Status
+
+| Fase | Status |
+|------|--------|
+| Discovery & Especificação | ✅ Completo (7 processos, 7 diagramas UML) |
+| Prototipagem | ✅ Completo (Netlify v5.0 validado) |
+| Proposta Comercial | ✅ Completo |
+| Arquitetura & Design | ✅ Completo |
+| Desenvolvimento | ⏳ Aguardando aprovação do cliente |
 
 ---
 
