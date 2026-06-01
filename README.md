@@ -15,9 +15,7 @@ Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 10 m�
 
 ---
 
-## 🏭 AMR ECOSYSTEM
-
-Sistema de gestão corporativo modular — ERP + MES — desenvolvido do zero com Clean Architecture, event-driven e deploy cloud-native na AWS.
+## 🏭 AMR ECOSYSTEM  (Ecossistema ERP corporativo full-suite — MES · WMS · TMS · CRM · HCM · BI — cloud-native na AWS, do zero com Clean Architecture e event-driven).
 
 > Cobrindo financeiro, chão de fábrica, RH, compras, logística e analytics numa única plataforma integrada.
 
