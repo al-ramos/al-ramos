@@ -1,6 +1,6 @@
 <div align="center">
 
-# Olá, sou Alessandro 👋
+# Olá, sou Alexsandro 👋
 
 **Desenvolvedor de sistemas industriais · MES & ERP · São Paulo, BR**
 
