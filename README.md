@@ -1,6 +1,6 @@
 <div align="left">
 
-<h3>Engenheiro de Software · .NET 8 + React · AWS · São Paulo, BR</h3>
+<h3>Engenheiro de Software · .NET 8 + React · AWS · São Paulo </h3>
 
 Desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — **B3, Itaú e Bradesco** — especialista em sustentação de sistemas legados, alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
 
