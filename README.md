@@ -93,3 +93,15 @@ Sprint 6  📋  Portal do Cliente + IA
 *Construindo o futuro da gestão industrial, um sprint de cada vez.*
 
 </div>
+
+
+---
+
+## 🌐 Demo ao Vivo
+
+> **AMR Forms Fábrica** rodando em produção na AWS ECS Fargate
+
+| Serviço | URL |
+|---------|-----|
+| 🌐 Frontend | [rds-forms-fabrica-alb...amazonaws.com](http://rds-forms-fabrica-alb-558362351.sa-east-1.elb.amazonaws.com/) |
+| 📖 Swagger / API | [...amazonaws.com:8080/swagger](http://rds-forms-fabrica-alb-558362351.sa-east-1.elb.amazonaws.com:8080/swagger/index.html) |
