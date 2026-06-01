@@ -4,7 +4,7 @@
 
 **Desenvolvedor de sistemas industriais · MES & ERP · São Paulo, BR**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/al-ramos)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/progalexramos/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/al-ramos)
 
 </div>
@@ -21,7 +21,7 @@ Sistema de gestão industrial modular — MES + ERP — desenvolvido do zero com
 
 | Módulo | Descrição | Status |
 |--------|-----------|--------|
-| 🏭 **AMR Forms Fábrica** | MES — controle de produção e ordens de fabricação | ✅ Live (AWS ECS) |
+| 🏭 **AMR Forms Fábrica** | MES — controle de produção e ordens de fabricação | 🔄 Em desenvolvimento |
 | 💰 **AMR Financeiro** | Contas a pagar/receber, fluxo de caixa, NF-e | 🔄 Em desenvolvimento |
 | 🧠 **AMR Core** | ERP base — cadastros, autenticação, integrações | 🔄 Em desenvolvimento |
 | 👥 **AMR RH** | Gestão de pessoas e ponto eletrônico | 📋 Planejado |
@@ -77,6 +77,19 @@ Sprint 6  📋  Portal do Cliente + IA
 
 ---
 
+## ⚽ Hydac — Protótipo de Gestão de Processos
+
+> Ferramenta VBA desenvolvida para automatizar o controle de processos operacionais em ambiente industrial, com foco em rastreabilidade e registro de serviços técnicos.
+
+| Característica | Detalhe |
+|----------------|---------|
+| 🛠️ **Tecnologia** | VBA (Excel / Access) |
+| 🏭 **Contexto** | Ambiente industrial — plantão e manutenção |
+| 📋 **Funções** | Registro de OS, controle de estoque, relatórios automáticos |
+| 📊 **Status** | ✅ Protótipo funcional em uso |
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -93,15 +106,3 @@ Sprint 6  📋  Portal do Cliente + IA
 *Construindo o futuro da gestão industrial, um sprint de cada vez.*
 
 </div>
-
-
----
-
-## 🌐 Demo ao Vivo
-
-> **AMR Forms Fábrica** rodando em produção na AWS ECS Fargate
-
-| Serviço | URL |
-|---------|-----|
-| 🌐 Frontend | [rds-forms-fabrica-alb...amazonaws.com](http://rds-forms-fabrica-alb-558362351.sa-east-1.elb.amazonaws.com/) |
-| 📖 Swagger / API | [...amazonaws.com:8080/swagger](http://rds-forms-fabrica-alb-558362351.sa-east-1.elb.amazonaws.com:8080/swagger/index.html) |
