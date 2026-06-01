@@ -1,5 +1,7 @@
 <div align="left">
 
+### Full-Stack Developer · .NET 8 + React · AWS ECS · São Paulo, BR ##
+
 Sou desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — B3, Itaú e Bradesco — especialista na sustentação de sistema legado, alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
 
 Nos últimos anos evolui para um stack moderno full-stack e cloud-native. 
