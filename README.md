@@ -1,6 +1,6 @@
 <div align="left">
 
-Sou desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — B3, Itaú e Bradesco — onde sou sou especialista na sustentação de sistemas legados de alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
+Sou desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — B3, Itaú e Bradesco — especialista na sustentação de sistema legado, alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
 
 Nos últimos anos evolui para um stack moderno full-stack e cloud-native. 
 Hoje trabalho com .NET 8 (C#), React/TypeScript, Clean Architecture e DevOps completo: infraestrutura como código com Terraform, pipelines no GitHub Actions e deploy em AWS ECS Fargate com ALB, EFS e ECR.
