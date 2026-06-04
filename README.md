@@ -1,13 +1,13 @@
 ![AMR SYSTEM](./amr_github_banner.png)
 <div align="left">
 
-<h3>Engenheiro de Software · .NET 8 + AWS · São Paulo </h3>
+<h3>Engenheiro de Software · .NET 10 + AWS · São Paulo </h3>
 
 Desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — **B3, Itaú e Bradesco** — especialista em sustentação de sistemas legados, alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
 
-Nos últimos anos evolui para um stack moderno full-stack e cloud-native. Hoje trabalho com **.NET 8 (C#)**, **React/TypeScript**, **Clean Architecture** e **DevOps completo**: infraestrutura como código com **Terraform**, pipelines no **GitHub Actions** e deploy em **AWS ECS Fargate** com ALB, EFS e ECR.
+Nos últimos anos evolui para um stack moderno full-stack e cloud-native. Hoje trabalho com **.NET 10 (C#)**, **React/TypeScript**, **Clean Architecture** e **DevOps completo**: infraestrutura como código com **Terraform**, pipelines no **GitHub Actions** e deploy em **AWS ECS Fargate** com ALB, EFS e ECR.
 
-Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 10 módulos, integrações via **RabbitMQ + MassTransit**, autenticação **JWT**, **32 testes unitários** passando e infra unificada na AWS. É o projeto que consolida e demonstra toda a minha stack atual, do back ao cloud.
+Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 7 módulos (3 em produção + 4 na Release 2.0), integrações via **RabbitMQ + MassTransit**, autenticação **JWT**, **61 testes** passando e infra unificada na AWS (ECS Fargate + ALB + EFS + Terraform). É o projeto que consolida e demonstra toda a minha stack atual, do back ao cloud.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/progalexramos/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/al-ramos)
@@ -23,18 +23,22 @@ Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 10 m�
 
 ### 📦 Módulos
 
-| Módulo | Descrição | Entregue | Status |
-|--------|-----------|----------|--------|
-| 🧠 **AMR Core** | ERP base — produtos, fornecedores, clientes, estoque, pedidos de compra, dashboard | Sprint 4 | ✅ Produção |
+#### Release 1.0 — Em produção / Sprint 6 ativo
+
+| Módulo | Descrição | Sprint | Status |
+|--------|-----------|--------|--------|
+| 🧠 **AMR Core** | ERP base — produtos, fornecedores, clientes, estoque, pedidos, dashboard | Sprint 6 | ✅ Produção |
 | 💰 **AMR Financeiro** | Contas a pagar/receber, lançamentos, fluxo de caixa, plano de contas | Sprint 3 | ✅ Produção |
-| 🏭 **AMR Forms Fábrica** | MES — ordens de fabricação, controle de produção | Sprint 1 | ✅ AWS ECS |
-| 👥 **AMR RH** | Gestão de pessoas e ponto eletrônico | Sprint 6 | 📋 Planejado |
-| 🛒 **AMR Compras** | Pedidos, fornecedores e cotações (módulo dedicado) | Sprint 6 | 📋 Planejado |
-| 📊 **AMR Analytics** | Dashboards e relatórios em tempo real | Sprint 5 | 📋 Planejado |
-| 🌐 **AMR Portal** | Acesso externo via web | Sprint 6 | 📋 Planejado |
-| 🤖 **AMR IA** | Módulo de inteligência artificial embarcada | Sprint 6 | 📋 Planejado |
-| 📦 **AMR WMS** | Gestão de armazém e estoque | Sprint 8 | 📋 Planejado |
-| 🚛 **AMR TMS** | Gestão de transporte e logística | Sprint 9 | 📋 Planejado |
+| 🏭 **AMR Forms Fábrica** | MES — fichas de produção, inspeções, ordens de reparo, NF | Sprint 5 | ✅ Produção |
+
+#### Release 2.0 — Sprints 7–10 (Jul–Ago 2026)
+
+| Módulo | Descrição | Sprint | Status |
+|--------|-----------|--------|--------|
+| 🤝 **AMR CRM** | CRM — leads, contatos, oportunidades, pipeline de vendas | Sprint 7 | 🔨 Em desenvolvimento |
+| 📦 **AMR WMS** | Gestão de armazém — recebimento, endereçamento, picking, integração Core | Sprint 8 | 📋 Planejado |
+| 🚛 **AMR TMS** | Gestão de transporte — ordens de entrega, rastreamento, cálculo de frete | Sprint 9 | 📋 Planejado |
+| 👥 **AMR HCM** | Gestão de pessoas — funcionários, ponto eletrônico, férias, departamentos | Sprint 10 | 📋 Planejado |
 
 ---
 
@@ -42,7 +46,7 @@ Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 10 m�
 
 ### Backend
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![.NET 10](https://img.shields.io/badge/.NET_10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![MediatR](https://img.shields.io/badge/MediatR_CQRS-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
@@ -126,27 +130,39 @@ AMR Forms Fábrica
 
 ---
 
-## 🗺️ Roadmap — Release 1.0
+## 🗺️ Roadmap
+
+### Release 1.0
 
 ```
-Sprint 1  ✅  AMR Core + Forms Fábrica          (28/04/2026)
-Sprint 2  ✅  BackgroundService + Infra          (29/04/2026)
-Sprint 3  ✅  AMR Financeiro + JWT + Docker      (13/05/2026)
-Sprint 4  ✅  AMR Core completo + Dashboard      (27/05/2026)
-Sprint 5  ⚡  Infra & CI/CD unificado AWS        (28/05 – 10/06/2026)  ← ATIVO
-Sprint 6  🔜  AMR Portal + IA                   (11/06 – 24/06/2026)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         🎯  Release 1.0  (24/06/2026)
+Sprint 1  ✅  AMR Core + Forms Fábrica                        (28/04/2026)
+Sprint 2  ✅  BackgroundService + Infra                        (29/04/2026)
+Sprint 3  ✅  AMR Financeiro + JWT + Docker                    (13/05/2026)
+Sprint 4  ✅  AMR Core completo + Dashboard                    (27/05/2026)
+Sprint 5  ✅  Infra AWS unificada + CI/CD (Terraform + ECS)   (03/06/2026)
+Sprint 6  ⚡  Polish AMR-Core · Testes · ExceptionHandling    (02/06 – 24/06/2026)  ← ATIVO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+              🎯  Release 1.0  (24/06/2026)
 ```
 
-### ✅ Sprint 5 — Infra & CI/CD (em andamento)
-- [x] Terraform unificado — 1 cluster `amr-system`, 1 ALB (3 listeners), 3 EFS, 6 ECR, 6 ECS services
-- [x] Dockerfiles AMR-Core (API + Web)
-- [x] Dockerfile AMR-Fábrica corrigido (namespace RDS → AMR)
-- [x] nginx.conf corrigido (porta 3000 → 80)
-- [x] CI/CD GitHub Actions — `deploy-aws.yml` para AMR-Core e AMR-Fábrica
-- [x] READMEs profissionais com diagrama de arquitetura (3 repos)
-- [ ] `terraform apply` — provisionar infra unificada na AWS *(em andamento)*
+### ✅ Sprint 6 — entregues
+- [x] CRUD completo AMR-Core (Produto, PedidoCompra, PedidoVenda) com workflows de status
+- [x] MovimentosEstoque `/estoque/movimentos` com filtros e badges
+- [x] ExceptionHandlingMiddleware (ProblemDetails RFC 7807) em todos os módulos
+- [x] FluentValidation + ValidationBehavior no pipeline MediatR (todos os módulos)
+- [x] Repository Pattern em AMR-Financeiro
+- [x] 26 testes unitários AMR-Core (domain + application handlers)
+
+### Release 2.0
+
+```
+Sprint 7   🔨  AMR CRM — leads, contatos, pipeline de vendas  (25/06 – 08/07/2026)  ← PRÓXIMO
+Sprint 8   🔜  AMR WMS — armazém, recebimento, picking         (09/07 – 22/07/2026)
+Sprint 9   🔜  AMR TMS — transporte, rastreamento, frete       (23/07 – 05/08/2026)
+Sprint 10  🔜  AMR HCM — pessoas, ponto, férias, salários      (06/08 – 19/08/2026)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+              🎯  Release 2.0  (19/08/2026)
+```
 
 ---
 
@@ -155,9 +171,9 @@ Sprint 6  🔜  AMR Portal + IA                   (11/06 – 24/06/2026)
 | Módulo | Framework | Testes |
 |--------|-----------|--------|
 | AMR.Financeiro | xUnit | ✅ 15 passando |
-| AMR.Core | xUnit | ✅ 13 passando |
-| AMR.Forms.Fabrica | xUnit | ✅ 4 passando |
-| **Total** | | **✅ 32 testes** |
+| AMR.Core | xUnit | ✅ 26 passando |
+| AMR.Forms.Fabrica | xUnit + Vitest/RTL | ✅ 20 passando |
+| **Total** | | **✅ 61 testes** |
 
 ---
 
