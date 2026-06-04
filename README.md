@@ -23,22 +23,22 @@ Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 7 mó
 
 ### 📦 Módulos
 
-#### Release 1.0 — Em produção / Sprint 6 ativo
+#### Release 1.0 — Em produção / Sprint 6 concluído
 
-| Módulo | Descrição | Sprint | Status |
-|--------|-----------|--------|--------|
-| 🧠 **AMR Core** | ERP base — produtos, fornecedores, clientes, estoque, pedidos, dashboard | Sprint 6 | ✅ Produção |
-| 💰 **AMR Financeiro** | Contas a pagar/receber, lançamentos, fluxo de caixa, plano de contas | Sprint 3 | ✅ Produção |
-| 🏭 **AMR Forms Fábrica** | MES — fichas de produção, inspeções, ordens de reparo, NF | Sprint 5 | ✅ Produção |
+| Módulo | Repo | Descrição | Status |
+|--------|------|-----------|--------|
+| 🧠 **AMR Core** | [AMR-Core](https://github.com/al-ramos/AMR-Core) | ERP base — produtos, fornecedores, clientes, estoque, pedidos, dashboard | ✅ Produção |
+| 💰 **AMR Financeiro** | [AMR-Financeiro](https://github.com/al-ramos/AMR-Financeiro) | Contas a pagar/receber, lançamentos, fluxo de caixa, plano de contas | ✅ Produção |
+| 🏭 **AMR Forms Fábrica** | [AMR-Forms-Fabrica](https://github.com/al-ramos/AMR-Forms-Fabrica) | MES — fichas de produção, inspeções, ordens de reparo, NF | ✅ Produção |
 
-#### Release 2.0 — Sprints 7–10 (Jul–Ago 2026)
+#### Release 2.0 — Sprints 7–10 (Jun–Ago 2026)
 
-| Módulo | Descrição | Sprint | Status |
-|--------|-----------|--------|--------|
-| 🤝 **AMR CRM** | CRM — leads, contatos, oportunidades, pipeline de vendas | Sprint 7 | 🔨 Em desenvolvimento |
-| 📦 **AMR WMS** | Gestão de armazém — recebimento, endereçamento, picking, integração Core | Sprint 8 | 📋 Planejado |
-| 🚛 **AMR TMS** | Gestão de transporte — ordens de entrega, rastreamento, cálculo de frete | Sprint 9 | 📋 Planejado |
-| 👥 **AMR HCM** | Gestão de pessoas — funcionários, ponto eletrônico, férias, departamentos | Sprint 10 | 📋 Planejado |
+| Módulo | Repo | Descrição | Status |
+|--------|------|-----------|--------|
+| 🤝 **AMR CRM** | [AMR-CRM](https://github.com/al-ramos/AMR-CRM) | CRM — leads, contatos, oportunidades, pipeline de vendas · API :5187 · Web :5176 | 🔨 Sprint 7 ativo |
+| 📦 **AMR WMS** | `em breve` | Gestão de armazém — recebimento, endereçamento, picking, integração Core | 📋 Sprint 8 |
+| 🚛 **AMR TMS** | `em breve` | Gestão de transporte — ordens de entrega, rastreamento, cálculo de frete | 📋 Sprint 9 |
+| 👥 **AMR HCM** | `em breve` | Gestão de pessoas — funcionários, ponto eletrônico, férias, departamentos | 📋 Sprint 10 |
 
 ---
 
@@ -140,9 +140,9 @@ Sprint 2  ✅  BackgroundService + Infra                        (29/04/2026)
 Sprint 3  ✅  AMR Financeiro + JWT + Docker                    (13/05/2026)
 Sprint 4  ✅  AMR Core completo + Dashboard                    (27/05/2026)
 Sprint 5  ✅  Infra AWS unificada + CI/CD (Terraform + ECS)   (03/06/2026)
-Sprint 6  ⚡  Polish AMR-Core · Testes · ExceptionHandling    (02/06 – 24/06/2026)  ← ATIVO
+Sprint 6  ✅  Polish AMR-Core · Testes · Security Hardening   (02/06 – 04/06/2026)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-              🎯  Release 1.0  (24/06/2026)
+              🎯  Release 1.0  ✅  (04/06/2026)
 ```
 
 ### ✅ Sprint 6 — entregues
@@ -156,7 +156,7 @@ Sprint 6  ⚡  Polish AMR-Core · Testes · ExceptionHandling    (02/06 – 24/0
 ### Release 2.0
 
 ```
-Sprint 7   🔨  AMR CRM — leads, contatos, pipeline de vendas  (25/06 – 08/07/2026)  ← PRÓXIMO
+Sprint 7   ⚡  AMR CRM — leads, contatos, pipeline de vendas  (04/06 – 24/06/2026)  ← ATIVO
 Sprint 8   🔜  AMR WMS — armazém, recebimento, picking         (09/07 – 22/07/2026)
 Sprint 9   🔜  AMR TMS — transporte, rastreamento, frete       (23/07 – 05/08/2026)
 Sprint 10  🔜  AMR HCM — pessoas, ponto, férias, salários      (06/08 – 19/08/2026)
