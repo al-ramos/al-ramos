@@ -44,6 +44,17 @@ Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com **11 
 | 🎭 **AMR Eventos** | Gestão de eventos corporativos — inscrições, presenças | Node.js 22 + Angular 17 | ✅ Produção |
 | 🖥️ **AMR Portal** | Portal web do cliente/funcionário — dashboard, SSO corporativo | Next.js 14 + Vercel | ✅ Sprint 15 |
 
+#### PI 3 — Release 3.0 (em desenvolvimento)
+
+| Sprint | Foco | Status |
+|--------|------|--------|
+| Sprint 15 | AMR-Portal — scaffold + auth + dashboard + CI/CD Vercel | ✅ Concluído |
+| **Sprint 16** | **AMR-Portal — módulos Eventos, RH, Compras + PWA** | ⚡ Em andamento |
+| Sprint 17–18 | AMR-Analytics — Kafka KRaft + ClickHouse + Grafana | 🔜 Planejado |
+| Sprint 19 | AMR-IA — pgvector + RAG + LangChain + Claude API | 🔜 Planejado |
+| Sprint 20–21 | AMR-Mobile — Expo SDK + auth biométrica + stores | 🔜 Planejado |
+| Sprint 22 | Infra & Hardening — Neon PostgreSQL + OpenTelemetry + Release 3.0 | 🔜 Planejado |
+
 ---
 
 ## 🎓 TODAATIVIDADE
