@@ -56,7 +56,7 @@
   </g>
 
   <!-- Bottom stats -->
-  <text x="32" y="192" font-family="monospace" font-size="10" fill="#475569">11 módulos entregues · Release 2.0 concluída · Sprint 16 em andamento · Jul 2026</text>
+  <text x="32" y="192" font-family="monospace" font-size="10" fill="#475569">12 módulos entregues · Release 2.0 concluída · Sprint 17 AMR-Analytics concluído · Jul 2026</text>
 
   <!-- Right side code snippet hint -->
   <rect x="620" y="30" width="260" height="100" rx="6" fill="#0f172a" opacity="0.8" stroke="#1e3a8a" stroke-width="1"/>

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-| 🏭 11 módulos entregues | 📋 14 sistemas planejados | ☁️ AWS ECS Fargate + Vercel | ⚡ Sprint 16 em andamento |
+| 🏭 12 módulos entregues | 📋 14 sistemas planejados | ☁️ AWS ECS Fargate + Vercel | ⚡ Sprint 17 concluído |
 |:---:|:---:|:---:|:---:|
 
 </div>
@@ -22,9 +22,9 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 ---
 
-## ⚡ Agora — Sprint 16
+## ⚡ Agora — Sprint 18
 
-> **AMR-Portal:** módulos Eventos, RH e Compras com integração real às APIs AMR + PWA
+> **AMR-Analytics:** Kafka KRaft + ClickHouse + Grafana dashboards + API REST métricas — concluído · próximo: AMR-IA
 
 ---
 
@@ -58,8 +58,8 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 | Sprint | Foco | Status |
 |--------|------|--------|
 | Sprint 15 | AMR-Portal scaffold + auth + CI/CD Vercel | ✅ |
-| **Sprint 16** | **AMR-Portal — Eventos, RH, Compras + PWA** | ⚡ |
-| Sprint 17–18 | AMR-Analytics — Kafka KRaft + ClickHouse + Grafana | 🔜 |
+| **Sprint 16** | **AMR-Portal — Eventos, RH, Compras + PWA** | ✅ |
+| Sprint 17–18 | AMR-Analytics — Kafka KRaft + ClickHouse + Grafana | ✅ |
 | Sprint 19 | AMR-IA — pgvector + RAG + LangChain + Claude API | 🔜 |
 | Sprint 20–21 | AMR-Mobile — Expo SDK + biometria + stores | 🔜 |
 | Sprint 22 | Infra — Neon PostgreSQL + OpenTelemetry + Release 3.0 | 🔜 |
