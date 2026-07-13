@@ -2,7 +2,7 @@
 
 <div align="center">
 
-| 🏭 12 módulos entregues | 📋 14 sistemas planejados | ☁️ AWS ECS Fargate + Vercel | ⚡ Sprint 17 concluído |
+| 🏭 14 módulos entregues | 📋 14 sistemas planejados | ☁️ AWS ECS Fargate + Vercel | ⚡ Sprint 21 concluído |
 |:---:|:---:|:---:|:---:|
 
 </div>
@@ -22,9 +22,9 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 ---
 
-## ⚡ Agora — Sprint 18
+## ⚡ Agora — Sprint 22
 
-> **AMR-Analytics:** Kafka KRaft + ClickHouse + Grafana dashboards + API REST métricas — concluído · próximo: AMR-IA
+> **AMR-IA** (Sprint 19) + **AMR-Mobile** (Sprints 20–21) entregues · próximo: **Sprint 22** — Infra (Neon PostgreSQL + OpenTelemetry + Release 3.0)
 
 ---
 
@@ -55,13 +55,19 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 ### PI 3 · Release 3.0 · em desenvolvimento
 
+| Módulo | Descrição | Stack |
+|--------|-----------|-------|
+| 📊 **AMR Analytics** | Kafka KRaft + ClickHouse + Grafana dashboards + métricas | Node.js 22 · ClickHouse |
+| 🤖 **AMR IA** | RAG pipeline — pgvector + LangChain.js + Claude API + Q&A | Node.js 22 · PostgreSQL 16 |
+| 📱 **AMR Mobile** | App nativo — biometria + stores + push notifications + offline | Expo SDK 51 · React Native |
+
 | Sprint | Foco | Status |
 |--------|------|--------|
 | Sprint 15 | AMR-Portal scaffold + auth + CI/CD Vercel | ✅ |
 | **Sprint 16** | **AMR-Portal — Eventos, RH, Compras + PWA** | ✅ |
 | Sprint 17–18 | AMR-Analytics — Kafka KRaft + ClickHouse + Grafana | ✅ |
-| Sprint 19 | AMR-IA — pgvector + RAG + LangChain + Claude API | 🔜 |
-| Sprint 20–21 | AMR-Mobile — Expo SDK + biometria + stores | 🔜 |
+| **Sprint 19** | **AMR-IA — pgvector + RAG + LangChain + Claude API** | ✅ |
+| **Sprint 20–21** | **AMR-Mobile — Expo SDK + biometria + stores** | ✅ |
 | Sprint 22 | Infra — Neon PostgreSQL + OpenTelemetry + Release 3.0 | 🔜 |
 
 ---
@@ -92,6 +98,7 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 ![Next.js](https://img.shields.io/badge/Next.js_14-black?style=flat-square&logo=next.js&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular_17-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo_51-000020?style=flat-square&logo=expo&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
