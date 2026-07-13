@@ -2,7 +2,7 @@
 
 <div align="center">
 
-| 🏭 14 módulos entregues | 📋 14 sistemas planejados | ☁️ AWS ECS Fargate + Vercel | ⚡ Sprint 21 concluído |
+| 🏭 14 módulos entregues | 📋 14 sistemas planejados | ☁️ AWS ECS Fargate + Vercel | ⚡ Release 3.0 entregue |
 |:---:|:---:|:---:|:---:|
 
 </div>
@@ -22,9 +22,9 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 ---
 
-## ⚡ Agora — Sprint 22
+## ✅ Release 3.0 — Concluída
 
-> **AMR-IA** (Sprint 19) + **AMR-Mobile** (Sprints 20–21) entregues · próximo: **Sprint 22** — Infra (Neon PostgreSQL + OpenTelemetry + Release 3.0)
+> **Release 3.0 entregue** — AMR-IA + AMR-Mobile + Neon PostgreSQL + OpenTelemetry + CHANGELOG + deploy guide. **14 sistemas** em produção, ecossistema AMR completo.
 
 ---
 
@@ -68,7 +68,7 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 | Sprint 17–18 | AMR-Analytics — Kafka KRaft + ClickHouse + Grafana | ✅ |
 | **Sprint 19** | **AMR-IA — pgvector + RAG + LangChain + Claude API** | ✅ |
 | **Sprint 20–21** | **AMR-Mobile — Expo SDK + biometria + stores** | ✅ |
-| Sprint 22 | Infra — Neon PostgreSQL + OpenTelemetry + Release 3.0 | 🔜 |
+| **Sprint 22** | **Infra — Neon PostgreSQL + OpenTelemetry + Release 3.0** | ✅ |
 
 ---
 
