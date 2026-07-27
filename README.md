@@ -2,7 +2,7 @@
 
 <div align="center">
 
-| 🏭 14 módulos entregues | 📋 14 sistemas planejados | ☁️ AWS ECS Fargate + Vercel | ⚡ Release 3.0 entregue |
+| 🏭 14 módulos em produção | ☁️ AWS ECS Fargate + Vercel | ⚡ Release 4.0 · PI 4 em andamento | 🚀 Sprint 23 |
 |:---:|:---:|:---:|:---:|
 
 </div>
@@ -22,9 +22,27 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 ---
 
-## ✅ Release 3.0 — Concluída
+## ⚡ Release 4.0 — PI 4 · em andamento
 
-> **Release 3.0 entregue** — AMR-IA + AMR-Mobile + Neon PostgreSQL + OpenTelemetry + CHANGELOG + deploy guide. **14 sistemas** em produção, ecossistema AMR completo.
+> **Aprofundamento corporativo por módulo (v2).** Com os 14 sistemas em produção, o PI 4 entrega a versão "v2" de cada domínio + o novo **AMR-Fiscal**. Sprint atual: **23 — AMR-Financeiro v2** (NF-e ✅ · Boleto ✅ · Conciliação ✅).
+
+| Sprint | Foco | Status |
+|--------|------|--------|
+| **Sprint 23** | **AMR-Financeiro v2 — NF-e, Boletos, Conciliação, DRE** | ▶️ em andamento |
+| Sprint 24 | AMR-Fábrica v2 — BOM, OEE, Manutenção | 🔲 |
+| Sprint 25 | AMR-Core v2 — Variantes, Preços, Multi-empresa | 🔲 |
+| Sprint 26 | AMR-CRM v2 — Cotações, Contratos, Tickets SLA | 🔲 |
+| Sprint 27 | AMR-HCM v2 — Folha completa, eSocial, Ponto | 🔲 |
+| Sprint 28 | AMR-Compras v2 — RFQ, 3-way matching, Alçadas | 🔲 |
+| Sprint 29 | AMR-WMS v2 — FIFO/FEFO, Endereçamento, Picking | 🔲 |
+| Sprint 30 | AMR-TMS v2 — MDF-e, CT-e, Roteirização | 🔲 |
+| Sprint 31 | **AMR-Fiscal (novo)** — SPED, Impostos | 🔲 |
+
+---
+
+## ✅ Release 3.0 — Concluída (PI 3)
+
+> AMR-IA + AMR-Mobile + Neon PostgreSQL + OpenTelemetry + CHANGELOG + deploy guide. Ecossistema AMR completo — **14 sistemas em produção**.
 
 ---
 
@@ -53,22 +71,13 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 | 🎭 **AMR Eventos** | Eventos corporativos — inscrições, presenças | Node.js 22 · Angular 17 |
 | 🖥️ **AMR Portal** | Portal web do cliente/funcionário — SSO + dashboard | Next.js 14 · Vercel |
 
-### PI 3 · Release 3.0 · em desenvolvimento
+### Release 3.0 · ✅ · PI 3 · Node.js + IA + Mobile
 
 | Módulo | Descrição | Stack |
 |--------|-----------|-------|
 | 📊 **AMR Analytics** | Kafka KRaft + ClickHouse + Grafana dashboards + métricas | Node.js 22 · ClickHouse |
 | 🤖 **AMR IA** | RAG pipeline — pgvector + LangChain.js + Claude API + Q&A | Node.js 22 · PostgreSQL 16 |
 | 📱 **AMR Mobile** | App nativo — biometria + stores + push notifications + offline | Expo SDK 51 · React Native |
-
-| Sprint | Foco | Status |
-|--------|------|--------|
-| Sprint 15 | AMR-Portal scaffold + auth + CI/CD Vercel | ✅ |
-| **Sprint 16** | **AMR-Portal — Eventos, RH, Compras + PWA** | ✅ |
-| Sprint 17–18 | AMR-Analytics — Kafka KRaft + ClickHouse + Grafana | ✅ |
-| **Sprint 19** | **AMR-IA — pgvector + RAG + LangChain + Claude API** | ✅ |
-| **Sprint 20–21** | **AMR-Mobile — Expo SDK + biometria + stores** | ✅ |
-| **Sprint 22** | **Infra — Neon PostgreSQL + OpenTelemetry + Release 3.0** | ✅ |
 
 ---
 
