@@ -127,7 +127,8 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=al-ramos&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=450)](https://github.com/al-ramos)
+[![Stats](https://github-readme-stats.vercel.app/api?username=al-ramos&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/al-ramos)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=al-ramos&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/al-ramos)
 
 </div>
 
