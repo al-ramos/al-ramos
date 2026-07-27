@@ -127,7 +127,9 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=al-ramos&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=450)](https://github.com/al-ramos)
+[![Followers](https://img.shields.io/github/followers/al-ramos?style=for-the-badge&logo=github&logoColor=white&color=1E40AF&labelColor=181717)](https://github.com/al-ramos?tab=followers)
+[![Stars](https://img.shields.io/github/stars/al-ramos?style=for-the-badge&logo=github&logoColor=white&color=1E40AF&labelColor=181717)](https://github.com/al-ramos)
+![Profile Views](https://komarev.com/ghpvc/?username=al-ramos&style=for-the-badge&color=1E40AF&labelColor=181717&label=VIEWS)
 
 </div>
 
@@ -135,9 +137,7 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=al-ramos&color=1E40AF&style=flat-square)
 
 *Construindo o futuro da gestão corporativa, um sprint de cada vez.*
 
 </div>
-
