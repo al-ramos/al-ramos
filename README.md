@@ -2,7 +2,7 @@
 
 <div align="center">
 
-| 🏭 14 módulos em produção | ☁️ AWS ECS Fargate + Vercel | ⚡ Release 4.0 · PI 4 em andamento | 🚀 Sprint 23 |
+| 🏭 14 módulos desenvolvidos | ☁️ Arquitetura AWS + Vercel | ⚡ Release 4.0 · PI 4 em revisão | 🚀 Sprint 24 |
 |:---:|:---:|:---:|:---:|
 
 </div>
@@ -24,13 +24,13 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 ## ⚡ Release 4.0 — PI 4 · em andamento
 
-> **Aprofundamento corporativo por módulo (v2).** Com os 14 sistemas em produção, o PI 4 entrega a versão "v2" de cada domínio + o novo **AMR-Fiscal**. Sprint atual: **23 — AMR-Financeiro v2** (NF-e ✅ · Boleto ✅ · Conciliação ✅).
+> **Aprofundamento corporativo por módulo (v2).** O ecossistema possui 14 módulos desenvolvidos. A validação técnica e a comprovação de produção são acompanhadas separadamente. Sprint atual: **24 — AMR-Fábrica v2**; a Sprint 23 do Financeiro permanece em revisão.
 
 | Sprint | Foco | Status |
 |--------|------|--------|
-| **Sprint 23** | **AMR-Financeiro v2 — NF-e, Boletos, Conciliação, DRE** | ▶️ em andamento |
-| Sprint 24 | AMR-Fábrica v2 — BOM, OEE, Manutenção | 🔲 |
-| Sprint 25 | AMR-Core v2 — Variantes, Preços, Multi-empresa | 🔲 |
+| Sprint 23 | AMR-Financeiro v2 — NF-e, Boletos, Conciliação, DRE | 🔍 em revisão |
+| **Sprint 24** | **AMR-Fábrica v2 — BOM, OEE, Manutenção** | ▶️ em andamento · revisão técnica |
+| Sprint 25 | Planejamento a reconciliar: roadmap Core v2 × código local Fábrica BOM v2 | ⚠️ |
 | Sprint 26 | AMR-CRM v2 — Cotações, Contratos, Tickets SLA | 🔲 |
 | Sprint 27 | AMR-HCM v2 — Folha completa, eSocial, Ponto | 🔲 |
 | Sprint 28 | AMR-Compras v2 — RFQ, 3-way matching, Alçadas | 🔲 |
@@ -42,13 +42,15 @@ Trajetória em missão crítica no mercado financeiro — **B3, Itaú e Bradesco
 
 ## ✅ Release 3.0 — Concluída (PI 3)
 
-> AMR-IA + AMR-Mobile + Neon PostgreSQL + OpenTelemetry + CHANGELOG + deploy guide. Ecossistema AMR completo — **14 sistemas em produção**.
+> AMR-IA + AMR-Mobile + Neon PostgreSQL + OpenTelemetry + CHANGELOG + deploy guide. Ecossistema com **14 módulos desenvolvidos**; evidências de produção estão em consolidação.
 
 ---
 
 ## 🏭 AMR SYSTEM
 
-> Ecossistema ERP corporativo full-suite — do chão de fábrica ao relatório financeiro. Cloud-native na AWS, Clean Architecture, Event-Driven.
+> Ecossistema ERP corporativo full-suite — do chão de fábrica ao relatório financeiro. Arquitetura cloud-native, Clean Architecture e integração orientada a eventos.
+
+> A fonte operacional do catálogo, das políticas e das evidências é o [AMR-Infra](https://github.com/al-ramos/AMR-Infra). Consulte a [matriz de evidências de produção](https://github.com/al-ramos/AMR-Infra/blob/develop/docs/PRODUCTION_EVIDENCE.md) antes de interpretar o status de um módulo.
 
 ### Release 1.0 · ✅ Jun/2026 · AWS ECS Fargate · .NET
 
