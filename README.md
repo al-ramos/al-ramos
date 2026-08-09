@@ -33,6 +33,7 @@ Em paralelo, mantenho o **Radar Carreira** — portal + extensão Chrome para co
 | 2 | **[Radar Carreira](#-radar-carreira-coletor-e-aderência-de-vagas)** | Portal + extensão Chrome para coletar vagas, calcular aderência e acompanhar candidaturas | 🟢 Em produção |
 | 3 | **[TodaAtividade](#-todaatividade-marketplace-de-atividades-pedagógicas)** | Marketplace de atividades pedagógicas em PDF | 🟢 Em produção |
 | 4 | **[Hydac Services](#-hydac-services-workflow-management-bpm)** | BPM corporativo para indústria hidráulica | 🟡 Aguardando cliente |
+| 5 | **[linkedin-job-collector](#-radar-carreira-coletor-e-aderência-de-vagas)** | Extensão Chrome que coleta vagas do LinkedIn e exporta CSV/JSON, ou envia direto ao Radar Carreira | 🟢 v2.2.0 publicada |
 
 ---
 
@@ -342,8 +343,8 @@ Dados persistidos em MariaDB
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=al-ramos&show_icons=true&theme=dracula&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=al-ramos&layout=compact&theme=dracula&hide_border=true&count_private=true)
+![GitHub Stats](./generated/overview.svg#gh-dark-mode-only)
+![Top Languages](./generated/languages.svg#gh-dark-mode-only)
 
 </div>
 
