@@ -1,7 +1,17 @@
-![AMR SYSTEM](./amr_github_banner.png)
-<div align="left">
+<div align="center">
 
-<h3>Engenheiro de Software · .NET 10 + AWS · São Paulo </h3>
+# 👋 Alexsandro Ramos
+
+<h3>Engenheiro de Software · .NET 10 + AWS · São Paulo</h3>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/progalexramos/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/al-ramos)
+![Profile Views](https://komarev.com/ghpvc/?username=al-ramos&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)
+[![Followers](https://img.shields.io/github/followers/al-ramos?style=for-the-badge&color=blue&label=FOLLOWERS)](https://github.com/al-ramos?tab=followers)
+
+</div>
+
+<div align="left">
 
 Desenvolvedor com trajetória construída em ambientes de missão crítica no mercado financeiro — **B3, Itaú e Bradesco** — especialista em sustentação de sistemas legados, alta volumetria, bases de dados críticas (SQL Server, Oracle, Sybase) e ciclos de entrega controlados por GMUD.
 
@@ -11,24 +21,27 @@ Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 7 mó
 
 Em paralelo, mantenho o **Radar Carreira** — portal + extensão Chrome para coletar vagas, calcular aderência de perfil e acompanhar candidaturas — e o **TodaAtividade**, marketplace de materiais didáticos em produção.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/progalexramos/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/al-ramos)
-
 </div>
 
 ---
 
 ## 📁 Projetos
 
-1. **[AMR ECOSYSTEM](#-amr-ecosystem)** — ERP corporativo full-suite (MES · WMS · TMS · CRM · HCM · BI), cloud-native na AWS.
-2. **[Radar Carreira](#-radar-carreira-coletor-e-aderência-de-vagas)** — Portal + extensão Chrome para coletar vagas, calcular aderência e acompanhar candidaturas.
-3. **[TodaAtividade](#-todaatividade-marketplace-de-atividades-pedagógicas)** — Marketplace de atividades pedagógicas em PDF, em produção.
-4. **[Hydac Services](#-hydac-services-workflow-management-bpm)** — BPM corporativo para indústria hidráulica, aguardando aprovação do cliente.
+| # | Projeto | Descrição | Status |
+|:-:|---------|-----------|:------:|
+| 1 | **[AMR ECOSYSTEM](#-amr-ecosystem)** | ERP corporativo full-suite (MES · WMS · TMS · CRM · HCM · BI), cloud-native na AWS | 🟢 Em produção |
+| 2 | **[Radar Carreira](#-radar-carreira-coletor-e-aderência-de-vagas)** | Portal + extensão Chrome para coletar vagas, calcular aderência e acompanhar candidaturas | 🟢 Em produção |
+| 3 | **[TodaAtividade](#-todaatividade-marketplace-de-atividades-pedagógicas)** | Marketplace de atividades pedagógicas em PDF | 🟢 Em produção |
+| 4 | **[Hydac Services](#-hydac-services-workflow-management-bpm)** | BPM corporativo para indústria hidráulica | 🟡 Aguardando cliente |
 
 ---
 
 ## 🏭 AMR ECOSYSTEM  
 (Ecossistema ERP corporativo full-suite — MES · WMS · TMS · CRM · HCM · BI — cloud-native na AWS, do zero com Clean Architecture e event-driven).
+
+![Status](https://img.shields.io/badge/Status-3%2F7_módulos_em_produção-brightgreen?style=flat-square)
+![Release](https://img.shields.io/badge/Release-2.0_em_andamento-orange?style=flat-square)
+![Tests](https://img.shields.io/badge/Testes-61_passando-success?style=flat-square)
 
 > Elimina sistemas isolados. Unifica financeiro, produção, RH, compras, logística e analytics com rastreabilidade total via event-driven.
 
@@ -193,6 +206,9 @@ Sprint 10  🔜  AMR HCM — pessoas, ponto, férias, salários      (06/08 – 
 
 ## 🧭 Radar Carreira — Coletor e Aderência de Vagas
 
+![Status](https://img.shields.io/badge/Status-Em_produção-brightgreen?style=flat-square)
+![Extensão](https://img.shields.io/badge/Extensão_Chrome-v2.2.0-blue?style=flat-square)
+
 > Portal multiusuário que reúne vagas de várias fontes, calcula aderência ao perfil profissional e organiza um pipeline pessoal de candidaturas — com uma extensão Chrome dedicada para coletar vagas do LinkedIn.
 
 [![Repo](https://img.shields.io/badge/GitHub-radar--carreira--platform-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/al-ramos/radar-carreira-platform)
@@ -233,6 +249,9 @@ Já em produção: portal público, deduplicação, importação JSON/CSV, integ
 
 ## 🎓 TodaAtividade — Marketplace de Atividades Pedagógicas
 
+![Status](https://img.shields.io/badge/Status-Em_produção-brightgreen?style=flat-square)
+![Sprints](https://img.shields.io/badge/Sprints-5%2F5_entregues-success?style=flat-square)
+
 > Marketplace B2C de atividades pedagógicas em PDF para o ensino fundamental. Professores encontram, visualizam prévia e compram materiais com download imediato após confirmação do pagamento.
 
 [![Demo](https://img.shields.io/badge/Produção-todaatividade.com.br-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://todaatividade.com.br)
@@ -264,6 +283,9 @@ Já em produção: portal público, deduplicação, importação JSON/CSV, integ
 ---
 
 ## 💧 Hydac Services — Workflow Management (BPM)
+
+![Status](https://img.shields.io/badge/Status-Aguardando_aprovação_do_cliente-yellow?style=flat-square)
+![Prototipagem](https://img.shields.io/badge/Prototipagem-Validada-success?style=flat-square)
 
 > Plataforma de **BPM corporativo** desenvolvida para a **Hydac** (indústria hidráulica) em parceria com a **Mac Gestão**.
 > Substitui 7 processos que rodavam em Excel puro por um sistema integrado com rastreabilidade total e controle de SLA.
@@ -320,8 +342,8 @@ Dados persistidos em MariaDB
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=al-ramos&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=al-ramos&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=al-ramos&show_icons=true&theme=dracula&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=al-ramos&layout=compact&theme=dracula&hide_border=true&count_private=true)
 
 </div>
 
