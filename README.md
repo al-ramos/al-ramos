@@ -19,7 +19,7 @@ Nos últimos anos evolui para um stack moderno full-stack e cloud-native. Hoje t
 
 Atualmente desenvolvo o **AMR SYSTEM** — ecossistema ERP corporativo com 7 módulos (3 em produção + 4 na Release 2.0), integrações via **RabbitMQ + MassTransit**, autenticação **JWT**, **61 testes** passando e infra unificada na AWS (ECS Fargate + ALB + EFS + Terraform). É o projeto que consolida e demonstra toda a minha stack atual, do back ao cloud.
 
-Em paralelo, mantenho o **Radar Carreira** — portal + extensão Chrome para coletar vagas, calcular aderência de perfil e acompanhar candidaturas — e o **TodaAtividade**, marketplace de materiais didáticos em produção.
+Em paralelo, mantenho o **Radar Carreira** — plataforma multiusuário que reúne vagas de diversas fontes, combina score explicável, veredito estratégico e IA opcional, e acompanha todo o ciclo da candidatura — e o **TodaAtividade**, marketplace de materiais didáticos em produção.
 
 </div>
 
@@ -30,7 +30,7 @@ Em paralelo, mantenho o **Radar Carreira** — portal + extensão Chrome para co
 | # | Projeto | Descrição | Status |
 |:-:|---------|-----------|:------:|
 | 1 | **[AMR ECOSYSTEM](#-amr-ecosystem)** | ERP corporativo full-suite (MES · WMS · TMS · CRM · HCM · BI), cloud-native na AWS | 🟢 Em produção |
-| 2 | **[Radar Carreira](#-radar-carreira-coletor-e-aderência-de-vagas)** | Portal + extensão Chrome para coletar vagas, calcular aderência e acompanhar candidaturas | 🟠 Em estabilização |
+| 2 | **[Radar Carreira](#-radar-carreira-coletor-e-aderência-de-vagas)** | Sistema de decisão de carreira com coleta multicanal, aderência explicável, IA opcional e pipeline | 🟢 Em produção |
 | 3 | **[TodaAtividade](#-todaatividade-marketplace-de-atividades-pedagógicas)** | Marketplace de atividades pedagógicas em PDF | 🟢 Em produção |
 | 4 | **[Hydac Services](#-hydac-services-workflow-management-bpm)** | BPM corporativo para indústria hidráulica | 🟡 Aguardando cliente |
 | 5 | **[linkedin-job-collector](#-radar-carreira-coletor-e-aderência-de-vagas)** | Extensão Chrome que coleta vagas do LinkedIn e exporta CSV/JSON, ou envia direto ao Radar Carreira | 🟢 v2.2.0 publicada |
@@ -207,29 +207,45 @@ Sprint 10  🔜  AMR HCM — pessoas, ponto, férias, salários      (06/08 – 
 
 ## 🧭 Radar Carreira — Coletor e Aderência de Vagas
 
-![Status](https://img.shields.io/badge/Status-Em_estabilização_·_Release_1.0-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Em_produção-brightgreen?style=flat-square)
+![Testes](https://img.shields.io/badge/Testes-58_passando-success?style=flat-square)
 ![Extensão](https://img.shields.io/badge/Extensão_Chrome-v2.2.0-blue?style=flat-square)
 
-> Portal multiusuário que reúne vagas de várias fontes, calcula aderência ao perfil profissional e organiza um pipeline pessoal de candidaturas — com uma extensão Chrome dedicada para coletar vagas do LinkedIn.
+> Sistema pessoal de decisão de carreira, com operação multiusuário: reúne vagas de várias fontes, explica a aderência, aplica bloqueadores estratégicos, oferece aprofundamento opcional por IA e organiza o ciclo completo da candidatura.
 
 [![Repo](https://img.shields.io/badge/GitHub-radar--carreira--platform-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/al-ramos/radar-carreira-platform)
+[![Produção](https://img.shields.io/badge/Abrir-Radar_Carreira-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://radar-carreira-platform.al-ramos.workers.dev)
 [![Extensão](https://img.shields.io/badge/GitHub-linkedin--job--collector-181717?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/al-ramos/linkedin-job-collector)
 
 ### 📊 O que faz
 
 | Componente | Descrição |
 |------------|-----------|
-| 🌐 **radar-carreira-platform** | Portal web (Next.js 16 + Cloudflare D1) — importa vagas via Gmail/JSON/CSV/ATS públicos (Greenhouse, Lever, Ashby), deduplica, calcula score explicável, mantém pipeline de candidaturas e envia resumo diário |
+| 🌐 **radar-carreira-platform** | Portal web que normaliza e deduplica vagas, calcula score e veredito, oferece IA opcional, mantém pipeline individual e envia alertas e resumo diário |
 | 🧩 **linkedin-job-collector** | Extensão Chrome (Manifest V3) que percorre pesquisas de vagas do LinkedIn, remove duplicidades, filtra por stack e exporta CSV/JSON — ou envia direto para o Radar |
+| 🧩 **Extensão APinfo** | Extensão Chrome integrada ao repositório que coleta vagas e, mediante ação do usuário, captura o contato disponível sem automatizar login ou candidatura |
+| 🛡️ **Administração** | Gestão de usuários, papéis e permissões RBAC, fontes, qualidade dos dados, métricas, monitoramento, auditoria e backup operacional |
 
 ### 🔄 Fluxo dos dados
 
 ```
-Gmail/RadarVagas ─┐
-JSON ou CSV ──────┼─> normalização e deduplicação ─> Cloudflare D1 ─> Radar e pipeline
-ATS públicos ─────┤                                        │
-Extensão LinkedIn ┘                                        └─> score, alertas e resumo diário
+Gmail/RadarVagas ──────┐
+JSON ou CSV ───────────┤
+Greenhouse/Lever/Ashby ┼─> normalização e deduplicação ─> Cloudflare D1 ─> Radar e pipeline
+Extensão LinkedIn ─────┤                                         │
+Extensão APinfo ───────┘                                         ├─> score + veredito estratégico
+                                                                 └─> IA opcional, alertas e resumo diário
 ```
+
+### 🧠 Decisão e inteligência
+
+| Camada | Resultado |
+|--------|-----------|
+| **Score numérico** | Mede aderência por competências, experiência e preferências, com explicação dos critérios |
+| **Veredito estratégico** | Classifica a oportunidade em quatro fases e aplica bloqueadores de stack, idioma, senioridade, atuação e geografia |
+| **IA opcional** | Extrai fatos e evidências, registra ambiguidades, prepara perguntas de entrevista e respeita cache e orçamento mensal |
+
+Somente vagas elegíveis nos vereditos **Bate** ou **Provável com ressalvas** podem ter análise persistida e entrar no acompanhamento. A candidatura avança sem regressão entre **mensagem gerada → enviada → respondida**.
 
 ### 🧰 Stack
 
@@ -239,14 +255,16 @@ Extensão LinkedIn ┘                                        └─> score, ale
 | Runtime | Cloudflare Workers (vinext + Vite) |
 | Banco de Dados | Cloudflare D1 + Drizzle ORM |
 | Autenticação | Sign in with ChatGPT + login local (PBKDF2 + sessão HMAC) |
-| Extensão | Chrome Manifest V3 (JS/HTML/CSS puro) |
+| Inteligência | Regras determinísticas + provedor de IA compatível com OpenAI |
+| Extensões | Chrome Manifest V3 para LinkedIn e APinfo |
+| Segurança | RBAC por papéis, grupos e permissões, com validação no servidor |
 | Automação | GitHub Actions + Google Apps Script |
 
 ### 📋 Status
 
-Portal em produção — deduplicação, importação JSON/CSV, integração Gmail, conectores Greenhouse/Lever/Ashby, pipeline de candidaturas, alertas e extensão Chrome v2.2.0 publicada.
+Plataforma em produção, com **22 tabelas**, **58 testes passando** e publicação contínua pelo GitHub Actions no Cloudflare Workers. O fluxo principal — descobrir, avaliar, aprofundar, salvar, candidatar-se e acompanhar — está implementado.
 
-Em paralelo, a **Release 1.0 — Fundação Estabilizada** está em andamento (4 sprints, 10 histórias): hotfixes de coleta, endurecimento de autorização (removida allowlist hardcoded de admin, agora `profiles.role` é a única fonte de verdade) e migração incremental para um modelo de permissões `can()` baseado em roles/grupos.
+A fase atual é de **consolidação operacional**: concluir a administração granular de RBAC, reforçar permissões de relatórios e exclusões referenciais, ampliar a cobertura do backup e eliminar limites residuais em filtros avançados. A arquitetura, as regras de negócio, as funcionalidades e os riscos conhecidos estão registrados na [documentação completa do projeto](https://github.com/al-ramos/radar-carreira-platform/blob/main/docs/visao-completa-do-projeto.md).
 
 ---
 
